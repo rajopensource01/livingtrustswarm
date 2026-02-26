@@ -1,0 +1,37 @@
+.
+├── backend
+│   ├── agents
+│   ├── api
+│   ├── data_stream
+│   ├── learning
+│   ├── models
+│   ├── simulation
+│   ├── swarm
+│   ├── Dockerfile
+│   ├── main.py
+│   └── requirements.txt
+├── database
+│   └── schema.sql
+├── docker
+│   └── docker-compose.yml
+├── frontend
+│   ├── app
+│   ├── components
+│   ├── lib
+│   ├── public
+│   ├── Dockerfile
+│   ├── next.config.js
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+├── API_DOCUMENTATION.md
+├── DOCKER_SETUP.md
+├── FRONTEND_IMPROVEMENTS.md
+├── PROJECT_SUMMARY.md
+├── QUICKSTART.md
+├── README.md
+├── START.bat
+└── START.sh
+
+16 directories, 19 files

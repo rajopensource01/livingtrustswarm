@@ -1,0 +1,63 @@
+.
+├── backend
+│   ├── agents
+│   │   ├── __init__.py
+│   │   ├── base_agent.py
+│   │   ├── credit_agent.py
+│   │   ├── drift_agent.py
+│   │   ├── identity_agent.py
+│   │   ├── incentive_agent.py
+│   │   ├── memory_agent.py
+│   │   ├── peer_agent.py
+│   │   └── prediction_agent.py
+│   ├── api
+│   ├── data_stream
+│   │   └── simulator.py
+│   ├── learning
+│   │   ├── __init__.py
+│   │   └── feedback_loop.py
+│   ├── models
+│   │   ├── database.py
+│   │   └── schemas.py
+│   ├── simulation
+│   │   ├── __init__.py
+│   │   └── counterfactual_engine.py
+│   ├── swarm
+│   │   ├── __init__.py
+│   │   └── negotiation_engine.py
+│   ├── Dockerfile
+│   ├── main.py
+│   └── requirements.txt
+├── database
+│   └── schema.sql
+├── docker
+│   └── docker-compose.yml
+├── frontend
+│   ├── app
+│   │   ├── agency
+│   │   ├── dashboard
+│   │   ├── feedback-logs
+│   │   ├── simulation-lab
+│   │   ├── swarm-lab
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── AgentVoteBar.tsx
+│   │   ├── Navbar.tsx
+│   │   └── RiskBadge.tsx
+│   ├── lib
+│   │   ├── api.ts
+│   │   └── utils.ts
+│   ├── public
+│   ├── Dockerfile
+│   ├── next.config.js
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+├── API_DOCUMENTATION.md
+├── DOCKER_SETUP.md
+└── README.md
+
+21 directories, 40 files
